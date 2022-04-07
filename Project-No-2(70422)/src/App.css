@@ -1,0 +1,57 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  
+}
+#one{
+  background-color: white;
+  justify-content: space-around;
+    display: flex !important;
+
+}
+#col{
+    justify-content: space-around;
+    display: flex;
+  box-sizing: border-box;
+  flex: 1 1 auto !important;
+    padding: 1rem 1rem !important;
+}
+h1{
+  color: red
+}
+body{
+   background-image:url('https://hdwallback.net/wp-content/uploads/2018/02/Best-Ever-HD-Photos-PIC.jpg')!important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+form{
+   width: 350px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border: none;
+  text-align: center;
+ color: whitesmoke;
+}
+input,select{
+	width: 100%;
+	border: inherit;
+   background: rgba(255,255,255,0.4);
+	padding: 10px;
+  border-radius: 20px;
+}
+
+button{
+   background: rgba(255,255,255,0.4);
+  border-radius: 20px !important;
+  border: inherit;
+  background-image: linear-gradient(to right, pink ,orange);
+                                 
+}
+button:hover {
+   background: rgba(255,255,255,0.4)!important ;
+  border-radius: 20px !important;
+  border: inherit !important;
+}
