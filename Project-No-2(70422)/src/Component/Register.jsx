@@ -19,7 +19,7 @@ function Register() {
 
   function handleFormSubmit(e) {
     
-    if (!name || !email || !password || !phone || !profession) {
+    if (!name || !lastname || !email || !password || !phone || !profession) {
       console.log(e,JSON.stringify(e.email));
       localStorage.setItem("Email",JSON.stringify(e.email));
       localStorage.setItem(
